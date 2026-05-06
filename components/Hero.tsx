@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -57,12 +58,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4"
         >
-          <a href="#catalog" className="btn-shine w-full sm:w-auto px-8 md:px-10 py-3 md:py-4 bg-white text-black font-medium rounded-full hover:bg-gray-200 transition-all duration-300 flex items-center justify-center gap-2">
+          <Link href="/modelos" className="btn-shine w-full sm:w-auto px-8 md:px-10 py-3 md:py-4 bg-white text-black font-medium rounded-full hover:bg-gray-200 transition-all duration-300 flex items-center justify-center gap-2">
             Explorar Modelos
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
             </svg>
-          </a>
+          </Link>
         </motion.div>
       </div>
       

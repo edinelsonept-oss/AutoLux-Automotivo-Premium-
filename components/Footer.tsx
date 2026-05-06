@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import Link from "next/link";
 import { Instagram, Facebook, Twitter, MapPin, Phone, Mail } from "lucide-react";
 
 export function Footer() {
@@ -31,10 +32,10 @@ export function Footer() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
             <h4 className="text-white font-medium tracking-wider uppercase text-sm mb-6">Links Rápidos</h4>
             <ul className="space-y-4">
-              <li><a href="#home" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Início</a></li>
-              <li><a href="#catalog" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Nossos Modelos</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Serviços Financeiros</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Agendar Test Drive</a></li>
+              <li><Link href="/" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Início</Link></li>
+              <li><Link href="/modelos" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Nossos Modelos</Link></li>
+              <li><Link href="/#about" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Serviços Financeiros</Link></li>
+              <li><Link href="/contato" className="text-gray-400 hover:text-luxury-gold transition-colors text-sm">Agendar Test Drive</Link></li>
             </ul>
           </motion.div>
           
