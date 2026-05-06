@@ -43,15 +43,15 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-gray-400 text-sm">
                 <MapPin className="w-5 h-5 text-luxury-gold shrink-0" />
-                <span>Av. Europa, 1000 - Jardins<br />São Paulo, SP<br />01449-000</span>
+                <span>Av. Almirante Barroso<br />Belém, PA</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400 text-sm">
                 <Phone className="w-5 h-5 text-luxury-gold shrink-0" />
-                <span>+55 (11) 3000-0000</span>
+                <span>(91) 98058-9674</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400 text-sm">
                 <Mail className="w-5 h-5 text-luxury-gold shrink-0" />
-                <span>concierge@autolux.com.br</span>
+                <span>alexviniciusdesantanaeliaselia@gmail.com</span>
               </li>
             </ul>
           </motion.div>
